@@ -69,6 +69,9 @@ The architecture consists of distributed Raspberry Pi monitoring nodes connected
 ### Real-Time Monitoring
 
 ![Dashboard](dashboard1.jpeg)
+![Dashboard](dashboard2.jpeg)
+![Dashboard](dashboard3.jpeg)
+![Dashboard](dashboard4.jpeg)
 
 The dashboard visualizes:
 
