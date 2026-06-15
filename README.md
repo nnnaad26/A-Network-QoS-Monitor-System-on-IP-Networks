@@ -66,8 +66,6 @@ The architecture consists of distributed Raspberry Pi monitoring nodes connected
 
 ## Dashboard Preview
 
-<h2>📊 Dashboard Preview</h2>
-
 <p align="center">
   <img src="dashboard1.jpeg" width="48%">
   <img src="dashboard2.jpeg" width="48%">
