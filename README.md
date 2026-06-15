@@ -69,13 +69,13 @@ The architecture consists of distributed Raspberry Pi monitoring nodes connected
 <h2>📊 Dashboard Preview</h2>
 
 <p align="center">
-  <img src="images/dashboard1.jpeg" width="48%">
-  <img src="images/dashboard2.jpeg" width="48%">
+  <img src="dashboard1.jpeg" width="48%">
+  <img src="dashboard2.jpeg" width="48%">
 </p>
 
 <p align="center">
-  <img src="images/dashboard3.jpeg" width="48%">
-  <img src="images/dashboard4.jpeg" width="48%">
+  <img src="dashboard3.jpeg" width="48%">
+  <img src="dashboard4.jpeg" width="48%">
 </p>
 
 <p align="center">
