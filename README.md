@@ -58,7 +58,7 @@ My primary responsibilities included:
 
 ## System Architecture
 
-![Architecture](images/topology.png)
+![Architecture](images/topology.jpeg)
 
 The architecture consists of distributed Raspberry Pi monitoring nodes connected to a centralized monitoring server through MQTT communication.
 
