@@ -7,24 +7,27 @@ A distributed Quality of Service (QoS) monitoring system developed during the II
 The system collects network performance metrics from Raspberry Pi monitoring nodes and provides real-time visibility through a centralized dashboard.
 
 ---
+## Research Context
 
+- Program: IISMA 2024
+- Institution: National Formosa University, Taiwan
+- Laboratory: IoT and Intelligent Cloud Application Laboratory
+- Field: Network Engineering & IoT
+
+---
 ## Problem
 
-Traditional network monitoring often focuses only on bandwidth utilization and may overlook important QoS indicators such as latency, jitter, and packet loss.
+Traditional network monitoring often focuses on bandwidth utilization while overlooking other critical Quality of Service (QoS) metrics such as latency, jitter, and packet loss.
 
-This project was developed to provide a more comprehensive view of network performance.
+As a result, network issues may remain undetected despite seemingly stable bandwidth conditions.
 
 ---
 
 ## Solution
 
-The proposed system consists of:
+To address this issue, a distributed QoS monitoring architecture was developed using Raspberry Pi agents, MQTT communication, MariaDB storage, and a web-based analytics dashboard.
 
-- Raspberry Pi monitoring agents
-- MQTT communication layer
-- Centralized monitoring server
-- MariaDB database
-- Web-based dashboard
+The platform continuously measures network performance and provides centralized visualization for administrators.
 
 ---
 
@@ -41,20 +44,52 @@ The proposed system consists of:
 
 ---
 
-## My Contributions
+## My Contribution
 
-- QoS monitoring implementation
-- Jitter analysis
-- Packet loss monitoring
-- MQTT integration
-- Dashboard development support
-- System testing and validation
+My primary responsibilities included:
+
+- Designing Jitter and Packet Loss measurement workflows
+- Developing Raspberry Pi measurement agents
+- Integrating MQTT-based data transmission
+- Supporting dashboard visualization and data analysis
+- Validating collected QoS metrics in laboratory environments
 
 ---
 
+## System Architecture
+
+![Architecture](images/topology.png)
+
+The architecture consists of distributed Raspberry Pi monitoring nodes connected to a centralized monitoring server through MQTT communication.
+
+---
+
+## Dashboard Preview
+
+### Real-Time Monitoring
+
+![Dashboard](images/dashboard.png)
+
+The dashboard visualizes:
+
+- Bandwidth
+- Latency
+- Jitter
+- Packet Loss
+
+---
+## Key Findings
+
+- Stable bandwidth does not always indicate good network quality.
+- Latency and jitter significantly affect user experience.
+- Distributed monitoring provides better visibility across multiple network segments.
+- MQTT enables efficient real-time data transmission from remote nodes.
+
+
+---
 ## Future Improvements
 
-- Grafana integration
-- Alert notification system
-- Predictive network analytics
-- Mobile dashboard support
+- SNMP integration
+- Network anomaly detection
+- Predictive analytics using machine learning
+- Multi-site monitoring support
