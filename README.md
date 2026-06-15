@@ -66,17 +66,22 @@ The architecture consists of distributed Raspberry Pi monitoring nodes connected
 
 ## Dashboard Preview
 
-| Raspberry Pi 1 Dashboard | Raspberry Pi 2 Dashboard |
-|--------------------------|--------------------------|
-| ![](images/dashboard1.jpeg) | ![](images/dashboard2.jpeg) |
-| ![](images/dashboard3.jpeg) | ![](images/dashboard4.jpeg) |
+<h2>📊 Dashboard Preview</h2>
 
-The dashboard visualizes:
+<p align="center">
+  <img src="images/dashboard1.jpeg" width="48%">
+  <img src="images/dashboard2.jpeg" width="48%">
+</p>
 
-- Bandwidth
-- Latency
-- Jitter
-- Packet Loss
+<p align="center">
+  <img src="images/dashboard3.jpeg" width="48%">
+  <img src="images/dashboard4.jpeg" width="48%">
+</p>
+
+<p align="center">
+  <b>Figure.</b> Real-time monitoring dashboard displaying bandwidth, latency, jitter, and packet loss collected from Raspberry Pi measurement agents deployed in the IoT and Intelligent Cloud Application Laboratory, National Formosa University.
+</p>
+
 
 ---
 ## Key Findings
