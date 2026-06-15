@@ -97,3 +97,10 @@ The architecture consists of distributed Raspberry Pi monitoring nodes connected
 - Network anomaly detection
 - Predictive analytics using machine learning
 - Multi-site monitoring support
+
+---
+## 🎥 Video Demonstration
+
+This video demonstrates the complete QoS monitoring workflow, including data collection from Raspberry Pi agents, MQTT transmission, database storage, and real-time dashboard visualization.
+
+[![Watch Demo](thumbnail.jpeg)](https://youtu.be/3aZXUqkj5Yw)
